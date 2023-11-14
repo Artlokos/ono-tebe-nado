@@ -25,7 +25,8 @@
     text-decoration: none;
 }
 .hImg-logo{
-   
+    width: 148px;
+    height: 105px;
 }
 .hKontakts{
     display: flex;
