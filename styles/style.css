@@ -33,3 +33,49 @@
     display: flex;
     flex-direction: column;
 }
+.sect_glavn{
+    min-height: 767px;
+    background-image: url(../images/cover.jpg);
+    background-size: cover;
+}
+.overlay{
+    min-height: 767px;
+    background-color: rgb(0, 0, 0,0.6);
+    background-size: cover;
+}
+
+.title{
+    letter-spacing: 30px;
+}
+.title>span{
+    display: flex;
+    flex-direction: row;
+    font-size: 100px;
+    line-height: 115%;
+    text-transform: uppercase;
+    color:#fff;
+    padding: 0px 50px;
+}
+.title>span:first-child{
+    padding-top: 200px;
+    justify-content: flex-start;
+    text-shadow: 1px 1px 1px #000;
+}
+.title>span>p{
+    letter-spacing: 60px;
+}
+.title>span:nth-child(2){
+    justify-content:center;
+}
+.title>span:nth-child(3){
+    justify-content:flex-end;
+}
+.cover-description{
+    display: flex;
+    flex-direction: row;
+    color: #fff;
+    text-align: center;
+}
+.bet_knopka{
+    display: flex;
+}

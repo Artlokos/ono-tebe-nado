@@ -10,7 +10,7 @@
     <title>Оно тебе надо — аукцион вещей, в которые никто не верил</title>
   </head>
   <body>
-    <header class="header">
+    <header class="header" hidden>
       <nav class="hNav">
         <ul>
         <li><a href="">главная</a></li>
@@ -25,14 +25,23 @@
         <address>наб. Принсенграхт 263-265,<br> Амстердам</address>
       </div>
     </header>
-    <main hidden>
-      <section id="glavnaya">
-        <span>ОНО</span>
-        <span>ТЕБЕ</span>
-        <span>НАДО</span>
-        <input type="button" value="СДЕЛАТЬ СТАВКУ">
+    <main>
+      <section id="glavnaya" class="sect_glavn">
+        <div class="overlay">
+          <h1 class="title">
+            <!-- <span>о</span><span>н</span><span>о</span>
+            <span>т</span><span>е</span>б<span>е</span>
+            <span>Н</span><span>а</span><span>д</span><span>о</span> -->
+            <span>о<p>н</p>о</span>
+            <span>те<p>б</p>е</span>
+            <span><p>Н</p>адо</span>
+          </h1>
+          <span class="cover-description">Аукцион вещей, в которые никто не верил</span>
+
+          <input type="button" class ="bet_knopka" value="СДЕЛАТЬ СТАВКУ"/>
+        </div>
       </section>    
-      <section id="loty">
+      <!-- <section id="loty">
         <h2>ЛОТЫ</h2>
         <div>
           <p>Фильм режиссёра, который бросил киношколу</p>
@@ -59,7 +68,7 @@
           <p>Слишком сложные или, наоборот, слишком простые. Опережающие своё время. В пух и прах растерзанные критиками. Непринятые и непонятые. Когда-то они казались просто неудачными. Но, несмотря на критику, кажущуюся простоту или сложность, сейчас без этих лотов невозможно представить современную культуру. Когда в эти вещи не верил никто, продолжали верить их создатели. И сейчас эти лоты стали культовыми.</p>
         
         </div>
-      </section>
+      </section> -->
     </main>
     <footer hidden>
       <div>
