@@ -3,7 +3,7 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    margin: 20px;
+    margin: 92px 49px 92px 51px;
 }
 
 .hNav ul{
@@ -202,4 +202,7 @@ font-size: 20px;
 .footer_social-icon{
     width: 48px;
     gap: 22px;
+}
+.footer__menu-link_active{
+    text-decoration: none;
 }
