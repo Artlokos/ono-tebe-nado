@@ -13,31 +13,39 @@
     align-content: space-around;
     justify-content: space-between;
 }
+
 .hNav>ul>li {
     margin: 0px 20px;
 }
+
 .hNav>ul li:first-child{
     list-style-type: none;
-}  
+} 
+
 .hNav>ul>li{
     list-style-type:circle;
-}    
+}
+
 .hNav>ul li:first-child a{  
     text-decoration: none;
 }
+
 .hImg-logo{
     width: 148px;
     height: 105px;
 }
+
 .hKontakts{
     display: flex;
     flex-direction: column;
 }
+
 .sect_glavn{
-    min-height: 767px;
+    min-height: 755px;
     background-image: url(../images/cover.jpg);
     background-size: cover;
 }
+
 .overlay{
     min-height: 450px;
     background-color: rgb(0, 0, 0,0.6);
@@ -47,6 +55,7 @@
 .title{
     letter-spacing: 30px;
 }
+
 .title>span{
     display: flex;
     flex-direction: row;
@@ -54,62 +63,74 @@
     line-height: 115%;
     text-transform: uppercase;
     color:#fff;
-    padding: 0px 50px;
+    padding: 0px 20px 0px 50px;
 }
+
 .title>span:first-child{
-    padding-top: 200px;
+    padding-top: 188px;
     justify-content: flex-start;
     /* text-shadow: 1px 1px 1px #000; */
 }
+
 .title>span>p{
     letter-spacing: 60px;
 }
+
 .title>span:nth-child(2){
     justify-content:center;
 }
+
 .title>span:nth-child(3){
     justify-content:flex-end;
 }
+
 .cover-description{
     display: flex;
     flex-direction: row;
     color: #fff;
     justify-content: end;
-    padding: 135px 81px 35px 0px;
+    padding: 135px 50px 50px 50px;
     font-size: 22px;
 }
+
 .cover-description-text{
     padding-right: 78px;
     word-spacing: 30px;
     text-transform: uppercase;
-    padding-top: 13px;}
+    padding-top: 13px;
+}
 
 .bet_knopka{
     display: flex;
     padding: 12px 32px;
     font-size: 22px;
 }
-.vse_kartochky{margin-top: 180px;margin-left: 50px;}
-.lot_header{
-    
-padding-left: 40px;
-    
-padding-bottom: 27px;
+
+.vse_kartochky{
+    margin-top: 180px;
+    margin-left: 50px;
 }
+
+.lot_header{
+    padding-left: 40px;
+    padding-bottom: 27px;
+}
+
 .lots_card-list{
     display: flex;
-    /* gap: 25px; */
     text-decoration: none;
     list-style-type: none;
 }
+
 .lots_card-list-item{
     text-decoration: none;
     flex-grow: 1;
 }
+
 .card-link{
     text-decoration: none;
-
 }
+
 .card{
     display: flex;
     flex-direction: column;
@@ -120,6 +141,7 @@ padding-bottom: 27px;
     flex-wrap: nowrap;
     justify-content: space-between;
 }
+
 .card-title{
     color: #fff;
     text-decoration: underline;
@@ -128,23 +150,29 @@ padding-bottom: 27px;
     font-size: 22px;
     padding: 50px 40px 30px 40px;
 }
+
 .card-text{
-color: #fff;    
-padding: 0px 40px 50px 40px;    
-font-size: 20px;
+    color: #fff;    
+    padding: 0px 40px 50px 40px;    
+    font-size: 20px;
 }
+
 .lots_look-more-link{
     padding: 30px 0px 0px 20px;
 }
+
 #lot1{
     background-image: url(../images/card-lot-01.jpg);
 }
+
 #lot2{    
     background-image: url(../images/card-lot-02.jpg);
 } 
+
 #lot3{    
     background-image: url(../images/card-lot-03.jpg);
 }
+
 .about{
     display: flex;
     margin-top:180px;
@@ -152,6 +180,7 @@ font-size: 20px;
     flex-wrap: wrap;
     align-items: center;
 }
+
 .about_column{
     display: flex;
     background-color: #000;
@@ -160,6 +189,7 @@ font-size: 20px;
     border-radius: 50%;
     margin: 0px 95px;
 }
+
 .about_logo-image{
     width: 240px;
     height: 114px;
@@ -169,11 +199,13 @@ font-size: 20px;
 .about_title{
     min-width: 910px;
 }
+
 .about_text{
     padding-left: 430px;
     margin: 0px 0px 25px 0px;
     font-size: 20px;
 }
+
 .footer{
     display: flex;
     flex-direction: row;
@@ -182,27 +214,33 @@ font-size: 20px;
     align-content: flex-start;
     margin: 180px 0px 90px 0px;
 }
+
 .footer_menu{
     font-size: 18px;
     text-align: center;
 }
+
 .address{
     display: flex;
     flex-direction: column;
     font-size: 18px;
 }
+
 .footer_menu-list{
     list-style-type: none;
 }
+
 .footer_social-list{
     display: flex;
     flex-direction: row;
     gap: 48px;
 }
+
 .footer_social-icon{
     width: 48px;
     gap: 22px;
 }
+
 .footer__menu-link_active{
     text-decoration: none;
 }
