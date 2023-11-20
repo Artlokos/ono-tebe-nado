@@ -176,7 +176,7 @@
 .about{
     display: flex;
     margin-top:180px;
-    padding:0px 50px;
+    padding: 0px 48px;
     flex-wrap: wrap;
     align-items: center;
 }
@@ -187,7 +187,7 @@
     width: 240px;
     height: 240px;
     border-radius: 50%;
-    margin: 0px 95px;
+    margin: 0px 95px 0px 95px;
 }
 
 .about_logo-image{
@@ -197,12 +197,12 @@
 }
 
 .about_title{
+    padding: 7px 0 0 26px;
     min-width: 910px;
 }
 
 .about_text{
-    padding-left: 430px;
-    margin: 0px 0px 25px 0px;
+    padding: 8px 0px 14px 456px;
     font-size: 20px;
 }
 
