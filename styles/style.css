@@ -3,30 +3,23 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    margin: 92px 49px 92px 51px;
+    margin: 95px 95px 95px 50px;
 }
 
 .hNav ul{
     display: flex;
     flex-direction: row;
-    align-items: stretch;
-    align-content: space-around;
-    justify-content: space-between;
+    gap: 13px;
 }
 
 .hNav>ul>li {
-    margin: 0px 20px;
-}
-
-.hNav>ul li:first-child{
-    list-style-type: none;
-} 
-
-.hNav>ul>li{
+    margin: 2px 20px 0px 0px;
+    font-size: 18px;
     list-style-type:circle;
 }
 
-.hNav>ul li:first-child a{  
+.hNav>ul li:first-child a{
+    list-style-type: none;
     text-decoration: none;
 }
 
