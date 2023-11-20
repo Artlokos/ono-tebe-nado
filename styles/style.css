@@ -6,29 +6,24 @@
     margin: 96px 0px 95px 50px;
     flex-wrap: nowrap;
 }
-
 .hNav>ul {
     display: flex;
     flex-direction: row;
     gap: 13px;
 }
-
 .hNav>ul>li {
     margin: 2px 20px 0px 0px;
     font-size: 18px;
     list-style-type:circle;
 }
-
 .hNav>ul li:first-child a {
     list-style-type: none;
     text-decoration: none;
 }
-
 .hImg-logo {
     height: 106px;
     min-width: 138px;
 }
-
 .hKontakts {
     padding-left: 166px;
     display: flex;
@@ -41,20 +36,17 @@
     background-image: url(../images/cover.jpg);
     background-size: cover;
 }
-
 .overlay {
     min-height: 450px;
     background-color: rgb(0, 0, 0,0.6);
     background-size: cover;
 }
-
 .title {
     display: flex;
     letter-spacing: 30px;
     flex-direction: column;
     padding: 172px 0px 0px 0px;
 }
-
 .title>span {
     display: flex;
     font-size: 100px;
@@ -64,21 +56,17 @@
     padding: 0px 20px 23px 50px;
     margin: 0px 0 0 0;
 }
-
 .title>span>p {
     letter-spacing: 60px;
 }
-
 .title>span:nth-child(2) {
     padding-left: 505px;
     padding-top: 4px;
 }
-
 .title>span:nth-child(3) {
     justify-content:flex-end;
     padding-top: 1px;
 }
-
 .cover-description {
     display: flex;
     flex-direction: row;
@@ -87,46 +75,38 @@
     padding: 108px 50px 50px 50px;
     font-size: 22px;
 }
-
 .cover-description-text {
     padding-right: 84px;
     word-spacing: 17px;
     text-transform: uppercase;
     padding-top: 13px;
 }
-
 .bet_knopka {
     display: flex;
     padding: 12px 32px;
     font-size: 22px;
 }
-
 .vse_kartochky {
     margin-top: 181px;
     margin-left: 50px;
 }
-
 .lot_header {
     padding-left: 40px;
     padding-bottom: 27px;
 }
-
 .lots_card-list {
     display: flex;
     gap: -16px;
 }
-
 .lots_card-list-item {
     display: flex;
     text-decoration: none;
     margin: 0px 25px 0 0;
     align-content: space-between;
 }
-
 .card-link {
     text-decoration: none;
 }
-
 .card {
     display: flex;
     flex-direction: column;
@@ -136,7 +116,6 @@
     flex-wrap: nowrap;
     justify-content: space-between;
 }
-
 .card-title {
     color: #fff;
     text-decoration: underline;
@@ -145,30 +124,24 @@
     font-size: 22px;
     padding: 50px 40px 30px 40px;
 }
-
 .card-text {
     color: #fff;    
     padding: 0px 40px 50px 40px;    
     font-size: 20px;
 }
-
 .lots_look-more-link {
     padding: 31px 0px 0px 40px;
     font-size: 20px;
 }
-
 #lot1 {
     background-image: url(../images/card-lot-01.jpg);
 }
-
 #lot2 {    
     background-image: url(../images/card-lot-02.jpg);
 } 
-
 #lot3 {    
     background-image: url(../images/card-lot-03.jpg);
 }
-
 .about {
     display: flex;
     margin-top:180px;
@@ -176,7 +149,6 @@
     flex-wrap: wrap;
     align-items: center;
 }
-
 .about_column {
     display: flex;
     background-color: #000;
@@ -185,23 +157,19 @@
     border-radius: 50%;
     margin: 0px 95px 0px 95px;
 }
-
 .about_logo-image {
     width: 240px;
     height: 114px;
     margin: 63px 0px;
 }
-
 .about_title {
     padding: 7px 0 0 26px;
     min-width: 910px;
 }
-
 .about_text {
     padding: 8px 0px 14px 456px;
     font-size: 20px;
 }
-
 .footer {
     display: flex;
     flex-direction: row;
@@ -210,34 +178,28 @@
     margin: 170px 0px 90px 0px;
     padding: 0px 50px 0 50px;
 }
-
 .footer_menu {
     font-size: 18px;
     text-align: center;
 }
-
 .address {
     display: flex;
     flex-direction: column;
     font-size: 18px;
     line-height: 130%;
 }
-
 .footer_menu-list {
     list-style-type: none;
 }
-
 .footer_social-list {
     display: flex;
     flex-direction: row;
     gap: 48px;
 }
-
 .footer_social-icon {
     width: 48px;
     gap: 22px;
 }
-
 .footer__menu-link_active {
     text-decoration: none;
 }
