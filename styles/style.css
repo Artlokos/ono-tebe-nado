@@ -125,8 +125,8 @@
     padding: 50px 40px 30px 40px;
 }
 .card-text {
-    color: #fff;    
-    padding: 0px 40px 50px 40px;    
+    color: #fff;
+    padding: 0px 40px 50px 40px;
     font-size: 20px;
 }
 .lots_look-more-link {
@@ -136,10 +136,10 @@
 #lot1 {
     background-image: url(../images/card-lot-01.jpg);
 }
-#lot2 {    
+#lot2 {
     background-image: url(../images/card-lot-02.jpg);
 } 
-#lot3 {    
+#lot3 {
     background-image: url(../images/card-lot-03.jpg);
 }
 .about {
