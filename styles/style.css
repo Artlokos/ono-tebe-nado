@@ -52,31 +52,33 @@
 }
 
 .title{
+    display: flex;
     letter-spacing: 30px;
+    flex-direction: column;
+    padding: 172px 0px 0px 0px;
 }
 
 .title>span{
     display: flex;
-    flex-direction: row;
     font-size: 100px;
-    line-height: 115%;
+    line-height: 100%;
     text-transform: uppercase;
     color:#fff;
-    padding: 0px 20px 0px 50px;
+    padding: 0px 21px 26px 50px;
+    margin: 0px 0 0 0;
 }
 
-.title>span:first-child{
-    padding-top: 188px;
+/* .title>span:first-child{
+    padding-top: 167px;
     justify-content: flex-start;
-    /* text-shadow: 1px 1px 1px #000; */
-}
+} */
 
 .title>span>p{
     letter-spacing: 60px;
 }
 
 .title>span:nth-child(2){
-    justify-content:center;
+    padding-left: 505px;
 }
 
 .title>span:nth-child(3){
@@ -88,13 +90,13 @@
     flex-direction: row;
     color: #fff;
     justify-content: end;
-    padding: 135px 50px 50px 50px;
+    padding: 105px 50px 50px 50px;
     font-size: 22px;
 }
 
 .cover-description-text{
-    padding-right: 78px;
-    word-spacing: 30px;
+    padding-right: 82px;
+    word-spacing: 17px;
     text-transform: uppercase;
     padding-top: 13px;
 }
