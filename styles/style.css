@@ -1,9 +1,10 @@
 .header{
     display: flex;
+    gap: 194px;
     flex-direction: row;
-    justify-content: space-between;
     align-items: center;
-    margin: 95px 95px 95px 50px;
+    margin: 96px 0px 95px 50px;
+    flex-wrap: nowrap;
 }
 
 .hNav ul{
@@ -24,15 +25,20 @@
 }
 
 .hImg-logo{
-    width: 148px;
-    height: 105px;
+    height: 106px;
+    min-width: 138px;
 }
 
 .hKontakts{
+    padding-left: 166px;
     display: flex;
+    gap: 4px;
+    font-size: 18px;
     flex-direction: column;
 }
-
+.hKontakts>a:first-child{
+    /* letter-spacing: -35px; */
+}
 .sect_glavn{
     min-height: 755px;
     background-image: url(../images/cover.jpg);
