@@ -7,7 +7,7 @@
     flex-wrap: nowrap;
 }
 
-.hNav ul{
+.hNav>ul{
     display: flex;
     flex-direction: row;
     gap: 13px;
@@ -36,9 +36,6 @@
     font-size: 18px;
     flex-direction: column;
 }
-.hKontakts>a:first-child{
-    /* letter-spacing: -35px; */
-}
 .sect_glavn{
     min-height: 755px;
     background-image: url(../images/cover.jpg);
@@ -64,14 +61,9 @@
     line-height: 100%;
     text-transform: uppercase;
     color:#fff;
-    padding: 0px 21px 26px 50px;
+    padding: 0px 20px 23px 50px;
     margin: 0px 0 0 0;
 }
-
-/* .title>span:first-child{
-    padding-top: 167px;
-    justify-content: flex-start;
-} */
 
 .title>span>p{
     letter-spacing: 60px;
@@ -79,10 +71,12 @@
 
 .title>span:nth-child(2){
     padding-left: 505px;
+    padding-top: 4px;
 }
 
 .title>span:nth-child(3){
     justify-content:flex-end;
+    padding-top: 1px;
 }
 
 .cover-description{
@@ -90,12 +84,12 @@
     flex-direction: row;
     color: #fff;
     justify-content: end;
-    padding: 105px 50px 50px 50px;
+    padding: 108px 50px 50px 50px;
     font-size: 22px;
 }
 
 .cover-description-text{
-    padding-right: 82px;
+    padding-right: 84px;
     word-spacing: 17px;
     text-transform: uppercase;
     padding-top: 13px;
@@ -108,7 +102,7 @@
 }
 
 .vse_kartochky{
-    margin-top: 180px;
+    margin-top: 181px;
     margin-left: 50px;
 }
 
@@ -119,13 +113,18 @@
 
 .lots_card-list{
     display: flex;
-    text-decoration: none;
-    list-style-type: none;
+    gap: -16px;
+    /* text-decoration: none; */
+    /* list-style-type: none; */
+    /* flex-direction: row; */
+    /* flex-wrap: nowrap; */
 }
 
 .lots_card-list-item{
+    display: flex;
     text-decoration: none;
-    flex-grow: 1;
+    margin: 0px 25px 0 0;
+    align-content: space-between;
 }
 
 .card-link{
@@ -138,7 +137,6 @@
     width: 430px;
     height: 450px;
     background-size: cover;
-    align-items: baseline;
     flex-wrap: nowrap;
     justify-content: space-between;
 }
