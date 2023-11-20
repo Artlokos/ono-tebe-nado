@@ -1,4 +1,4 @@
-.header{
+.header {
     display: flex;
     gap: 194px;
     flex-direction: row;
@@ -7,7 +7,7 @@
     flex-wrap: nowrap;
 }
 
-.hNav>ul{
+.hNav>ul {
     display: flex;
     flex-direction: row;
     gap: 13px;
@@ -19,43 +19,43 @@
     list-style-type:circle;
 }
 
-.hNav>ul li:first-child a{
+.hNav>ul li:first-child a {
     list-style-type: none;
     text-decoration: none;
 }
 
-.hImg-logo{
+.hImg-logo {
     height: 106px;
     min-width: 138px;
 }
 
-.hKontakts{
+.hKontakts {
     padding-left: 166px;
     display: flex;
     gap: 4px;
     font-size: 18px;
     flex-direction: column;
 }
-.sect_glavn{
+.sect_glavn {
     min-height: 755px;
     background-image: url(../images/cover.jpg);
     background-size: cover;
 }
 
-.overlay{
+.overlay {
     min-height: 450px;
     background-color: rgb(0, 0, 0,0.6);
     background-size: cover;
 }
 
-.title{
+.title {
     display: flex;
     letter-spacing: 30px;
     flex-direction: column;
     padding: 172px 0px 0px 0px;
 }
 
-.title>span{
+.title>span {
     display: flex;
     font-size: 100px;
     line-height: 100%;
@@ -65,21 +65,21 @@
     margin: 0px 0 0 0;
 }
 
-.title>span>p{
+.title>span>p {
     letter-spacing: 60px;
 }
 
-.title>span:nth-child(2){
+.title>span:nth-child(2) {
     padding-left: 505px;
     padding-top: 4px;
 }
 
-.title>span:nth-child(3){
+.title>span:nth-child(3) {
     justify-content:flex-end;
     padding-top: 1px;
 }
 
-.cover-description{
+.cover-description {
     display: flex;
     flex-direction: row;
     color: #fff;
@@ -88,50 +88,46 @@
     font-size: 22px;
 }
 
-.cover-description-text{
+.cover-description-text {
     padding-right: 84px;
     word-spacing: 17px;
     text-transform: uppercase;
     padding-top: 13px;
 }
 
-.bet_knopka{
+.bet_knopka {
     display: flex;
     padding: 12px 32px;
     font-size: 22px;
 }
 
-.vse_kartochky{
+.vse_kartochky {
     margin-top: 181px;
     margin-left: 50px;
 }
 
-.lot_header{
+.lot_header {
     padding-left: 40px;
     padding-bottom: 27px;
 }
 
-.lots_card-list{
+.lots_card-list {
     display: flex;
     gap: -16px;
-    /* text-decoration: none; */
-    /* list-style-type: none; */
-    /* flex-direction: row; */
-    /* flex-wrap: nowrap; */
 }
 
-.lots_card-list-item{
+.lots_card-list-item {
     display: flex;
     text-decoration: none;
     margin: 0px 25px 0 0;
     align-content: space-between;
 }
 
-.card-link{
+.card-link {
     text-decoration: none;
 }
 
-.card{
+.card {
     display: flex;
     flex-direction: column;
     width: 430px;
@@ -141,7 +137,7 @@
     justify-content: space-between;
 }
 
-.card-title{
+.card-title {
     color: #fff;
     text-decoration: underline;
     font-weight: bold;
@@ -150,30 +146,30 @@
     padding: 50px 40px 30px 40px;
 }
 
-.card-text{
+.card-text {
     color: #fff;    
     padding: 0px 40px 50px 40px;    
     font-size: 20px;
 }
 
-.lots_look-more-link{
+.lots_look-more-link {
     padding: 31px 0px 0px 40px;
     font-size: 20px;
 }
 
-#lot1{
+#lot1 {
     background-image: url(../images/card-lot-01.jpg);
 }
 
-#lot2{    
+#lot2 {    
     background-image: url(../images/card-lot-02.jpg);
 } 
 
-#lot3{    
+#lot3 {    
     background-image: url(../images/card-lot-03.jpg);
 }
 
-.about{
+.about {
     display: flex;
     margin-top:180px;
     padding: 0px 48px;
@@ -181,7 +177,7 @@
     align-items: center;
 }
 
-.about_column{
+.about_column {
     display: flex;
     background-color: #000;
     width: 240px;
@@ -190,23 +186,23 @@
     margin: 0px 95px 0px 95px;
 }
 
-.about_logo-image{
+.about_logo-image {
     width: 240px;
     height: 114px;
     margin: 63px 0px;
 }
 
-.about_title{
+.about_title {
     padding: 7px 0 0 26px;
     min-width: 910px;
 }
 
-.about_text{
+.about_text {
     padding: 8px 0px 14px 456px;
     font-size: 20px;
 }
 
-.footer{
+.footer {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -215,33 +211,33 @@
     padding: 0px 50px 0 50px;
 }
 
-.footer_menu{
+.footer_menu {
     font-size: 18px;
     text-align: center;
 }
 
-.address{
+.address {
     display: flex;
     flex-direction: column;
     font-size: 18px;
     line-height: 130%;
 }
 
-.footer_menu-list{
+.footer_menu-list {
     list-style-type: none;
 }
 
-.footer_social-list{
+.footer_social-list {
     display: flex;
     flex-direction: row;
     gap: 48px;
 }
 
-.footer_social-icon{
+.footer_social-icon {
     width: 48px;
     gap: 22px;
 }
 
-.footer__menu-link_active{
+.footer__menu-link_active {
     text-decoration: none;
 }
