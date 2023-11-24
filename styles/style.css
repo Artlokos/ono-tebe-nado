@@ -29,6 +29,9 @@ h2 {
     gap: 13px;
     list-style-type: none;
 }
+.end__span{
+    letter-spacing: normal;
+}
 
 .header__menu>.header__links-list>.header__links-list-item {
     margin: 2px 20px 0px 0px;
