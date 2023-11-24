@@ -71,7 +71,6 @@ h2 {
 .title {
     position: relative;
     display: flex;
-    letter-spacing: 30px;
     flex-direction: column;
     padding: 172px 0px 0px 0px;
     z-index: 2;
@@ -80,6 +79,7 @@ h2 {
 .title>.letter-spacing-30 {
     display: flex;
     font-size: 100px;
+    letter-spacing: 30px;
     line-height: 100%;
     text-transform: uppercase;
     color:#fff;
@@ -92,13 +92,13 @@ h2 {
 }
 
 .title>span:nth-child(2) {
-    padding-top: 4px;
+    padding: 5px 30px 0 0;
     justify-content: center;
 }
 
 .title>span:nth-child(3) {
     justify-content:flex-end;
-    padding-top: 1px;
+    padding: 20px 50px 25px 0;
 }
 
 .overlay {
@@ -240,15 +240,17 @@ h2 {
     margin: 63px 0px;
 }
 
-.about_title { 
+.about_title {
     display: flex;
     flex-direction: column;
-    padding: 98px 0 0 26px;
+    padding: 100px 0 0 26px;
 }
-
+.about_h2{
+    padding: 0px 0 100px 0;
+}
 .about_text {
     font-size: 20px;
-    padding: 25px 0 10px 0;
+    padding: 0px 0 20px 0;
 }
 
 .footer {
@@ -256,7 +258,7 @@ h2 {
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-start;
-    margin: 170px 0px 90px 0px;
+    margin: 165px 0px 90px 0px;
     padding: 0px 50px 0 50px;
 }
 
